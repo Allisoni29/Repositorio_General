@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://m.media-amazon.com/images/I/71XcHgvN84L.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f0f0f0; /* Color de texto general */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h1 {
+    color: #e0e0e0; /* Gris claro */
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); /* Sombra para darle un efecto más misterioso */
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.text-image {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.image {
+    display: inline-block;
+    margin-left: 200px;
+    width: 200px;
+    height: auto;
+    border: 2px solid #d10000; /* Borde rojo sangre para la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+h2 {
+    color: #d10000; /* Rojo sangre */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra para darle un efecto más siniestro */
+}
+
+p {
+    color: #e0e0e0; /* Texto blanco claro */
+    line-height: 1.6;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.next-button {
+    background-color: #d10000; /* Rojo sangre */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Sombra para dar un efecto más dramático */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones para efectos suaves */
+}
+
+.next-button:hover {
+    background-color: #a00000; /* Rojo más oscuro al pasar el ratón */
+    transform: scale(1.1); /* Efecto de aumento al pasar el ratón */
+}

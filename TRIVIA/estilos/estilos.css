@@ -1,0 +1,68 @@
+.principal{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    border:1px black solid;
+    text-align: center;
+    color:white;
+    margin-top: 40px;
+    background-color: white;
+
+}
+
+
+.contenido{
+    background-color: white;
+    color:black;
+    margin-top: 40px;
+}
+h2{
+    margin: 0px;
+    font-size: 12px;
+}
+.titulo{
+    background-color: rgb(216, 112, 112) ;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+
+body{
+    background-image:url("..//multimedia/fondo.avif.png");
+}
+ 
+.categoria{}
+
+
+.continuar{
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.continuar:hover{
+    background-color:rgb(170, 170, 240);
+    color: rgb(218, 175, 175); 
+}   
+
+.adorno{
+    width: 200px ;
+}
+
+.siguiente{
+    padding:10px;
+    padding-left: 40px;
+    padding-right:40px;
+    margin-top: 15px;
+    text-align: right;
+    display: inline-block
+
+}
